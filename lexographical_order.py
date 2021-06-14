@@ -1,3 +1,4 @@
+#This program will sort a list in lexographical order
 def lexographical_order(x): 
     print('Original list:\t',l)
     size = len(x)
@@ -28,7 +29,7 @@ def lexographical_order(x):
                 main.append('nine')
         if len(s) == 2:#if length of the element is 2
             # for all the double digit numbers(ten's digit)
-            if (s[0] == '1') or (s[0] == '2') or (s[0] == '3') or (s[0] == '4') or (s[0] == '5') or (s[0] == '6') or (s[0] == '7') or (s[0] == '8') or (s[0] == '9'):
+            if (s[0] == '1') or (s[0] == '2') or (s[0] == '3') or (s[0] == '4') or (s[0] == '5') or (s[0] == '6') or (s[0] == '7') or (s[0] == '8') or (s[0] == '9'):#If the number is double digit then the loop will go ahead
                 if s[1] =='0':#for the unit digits only, if unit digit is zero then it will not add anything 
                     i =''
                 if s[1] == '1':
@@ -50,7 +51,7 @@ def lexographical_order(x):
                 if s[1] == '9':
                     i=' nine'
                 if s == '10':
-                    main.append('ten')#Used brute force for [10,19]
+                    main.append('ten')#Used brute force for all the integer in the interval [10,19]
                 if s == '13':
                     main.append('thirteen')
                 if s == '14':
