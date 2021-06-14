@@ -26,7 +26,7 @@ def lexographical_order(x):
             if inte == 8:
                 main.append('eight')
             if inte == 9:
-                main.append('nine')
+                main.appendend('nine')
         if len(s) == 2:#if length of the element is 2
             # for all the double digit numbers(ten's digit)
             if (s[0] == '1') or (s[0] == '2') or (s[0] == '3') or (s[0] == '4') or (s[0] == '5') or (s[0] == '6') or (s[0] == '7') or (s[0] == '8') or (s[0] == '9'):#If the number is double digit then the loop will go ahead
@@ -186,7 +186,7 @@ def lexographical_order(x):
             if s[0] == 'ninety':
                 last.append(int('9'+j))
     print('Lexographically sorted list:\t',last)#finally printed the new list at last
-l = [99,13,100]#main list 
+l = [99,13,100]#main list for the manipulation
 lexographical_order(l)#used the function
 '''
 OUTPUT OF THE PROGRAM
