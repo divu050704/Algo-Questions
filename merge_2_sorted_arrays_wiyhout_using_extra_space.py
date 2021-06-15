@@ -16,5 +16,7 @@ m = [0,2,6,8,9]
 merge_list(n,m)
 '''
 OUTPUT OF PROGRAM
-[0, 1, 2, 3, 5, 6, 7, 8, 9]
+First list:      [1, 3, 5, 7]
+Second list:     [0, 2, 6, 8, 9]
+Merged list:     [0, 1, 2, 3, 5, 6, 7, 8, 9]
 '''
