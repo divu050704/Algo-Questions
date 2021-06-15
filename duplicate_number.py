@@ -14,5 +14,6 @@ l = [1,3,4,2,2]
 duplicate(l)
 '''
 OUTPUT OF THE PROGRAM
-2
+Original list:   [1, 3, 4, 2, 2]
+Duplicate element:       2
 '''        
